@@ -266,9 +266,6 @@ function Member() {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="row">
             <div className="col-sm-4">
               <div className="team-5 members__box">
                 <div className="team-img">
@@ -280,6 +277,10 @@ function Member() {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="row">
+           
             <div className="col-sm-4">
               <div className="team-5 members__box">
                 <div className="team-img">
@@ -302,9 +303,6 @@ function Member() {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="row" style={{alignItems: "center", justifyContent: "center"}}>
             <div className="col-sm-4">
               <div className="team-5 members__box">
                 <div className="team-img">
@@ -316,6 +314,10 @@ function Member() {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="row" style={{alignItems: "center", justifyContent: "center"}}>
+            
             <div className="col-sm-4">
               <div className="team-5 members__box">
                 <div className="team-img">
