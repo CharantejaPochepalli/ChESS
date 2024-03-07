@@ -3,6 +3,7 @@ import NavBar from "../NavBar";
 import Footer from "../Footer";
 import "./Faculty.css";
 import { TypeAnimation } from "react-type-animation";
+import dd from '../assets/dd.jpg';
 import PPG from "../assets/PPG.jpg";
 import AH from "../assets/AH.jpg";
 import AKS from "../assets/AKS.jpg";
@@ -35,19 +36,19 @@ function Faculty() {
             <div className="col-sm-3">
               <div className="team-5 members__box">
                 <div className="team-img">
-                  <img src={PPG} alt="Team Img" />
+                  <img src={dd} alt="Team Img" />
                 </div>
                 <div className="team-content">
-                  <h2>Parthapratim Gupta</h2>
+                  <h2>Debayan Das</h2>
                   <TypeAnimation
                     cursor={true}
-                    sequence={[" PROFESSOR", 2050, " PROFESSOR", 2000]}
+                    sequence={["Assistant Professor", 2050, "Assistant Professor ", 2000]}
                     wrapper="h5"
                     repeat={Infinity}
                   />
                   <i className="fa-solid fa-envelope"></i>
-                  <h6>parthapratim.gupta@che.nitdgp.ac.in</h6>
-                  <h4>9434788028</h4>
+                  <h6> ddas.che@nitdgp.ac.in</h6>
+                  
                 </div>
               </div>
             </div>

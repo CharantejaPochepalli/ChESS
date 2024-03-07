@@ -98,11 +98,7 @@ function NavBar() {
                 </Link>
               </div>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/companiesc">
-               Companies
-              </Link>
-            </li>
+           
             <li className="nav-item">
               <Link className="nav-link" to="/Gallery">
                 <i className="fa fa-user-plus" aria-hidden="true"></i> Gallery

@@ -12,7 +12,7 @@ import Chemeinsider from './Components/Preview/Chemeinsider';
 import Achatwithchess from './Components/Preview/Achatwithchess';
 import Blog from './Components/Blogs/Blog';
 import Error from './Components/Error'
-import Companies from './Components/companiesc/companiesc';
+
 import Gallery from './Components/Gallery/Gallery';
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
         <Route path='/chemKriti2021' element={<ChemKriti2021/>}/>
         <Route path='/chemKriti2022' element={<ChemKriti2022/>}/>
         <Route path='/more' element={<More/>}/>
-        <Route path='/companiesc' element={<Companies/>}/>
+        
         <Route path='/Gallery' element={<Gallery/>}></Route>
         <Route path='/blogs' element={<Blog/>}/>
         <Route path='*' element={<Error/>}/>
