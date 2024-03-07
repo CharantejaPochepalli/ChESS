@@ -370,7 +370,7 @@ function Faculty() {
                   <img src={SK} alt="Team Img" />
                 </div>
                 <div className="team-content">
-                  <h2>Sankha Karmakar</h2>
+                  <h2>Sankhya Karmakar</h2>
                   <TypeAnimation
                     cursor={true}
                     sequence={[
