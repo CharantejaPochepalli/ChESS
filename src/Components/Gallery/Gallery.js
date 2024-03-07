@@ -40,6 +40,7 @@ const Gallery=()=>{
     return(
         <div>
             <span className="rcr">Gallery</span>
+            <hr className="hr" width="60%" style={{margin: "0 auto"}}/>
         <NavBar/>
         <div class="gallery">
             <img src={img1} alt="Two hands creating a heart and showing the sun"/>
